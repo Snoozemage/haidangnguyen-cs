@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">Hai Dang Nguyen</title>
+  <desc id="desc">Software engineering, data analytics, and applied machine learning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="55%" stop-color="#172b3b"/>
+      <stop offset="100%" stop-color="#123b43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#86efac"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#34d399" stop-opacity=".27"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="270" rx="20" fill="url(#bg)"/>
+  <circle cx="1010" cy="35" r="270" fill="url(#glow)"/>
+  <g fill="none" stroke="#8be9df" stroke-opacity=".18">
+    <path d="M760 0 C850 70 845 180 1010 270"/>
+    <path d="M850 0 C940 85 920 190 1090 270"/>
+    <path d="M960 0 C1040 95 1025 190 1160 270"/>
+    <path d="M700 95 H1200 M735 145 H1200 M785 195 H1200"/>
+  </g>
+  <g fill="#a7f3d0" fill-opacity=".75">
+    <circle cx="920" cy="70" r="3"/><circle cx="1062" cy="111" r="2.5"/>
+    <circle cx="1140" cy="54" r="2"/><circle cx="1004" cy="213" r="3"/>
+    <circle cx="826" cy="190" r="2"/><circle cx="1098" cy="232" r="2"/>
+  </g>
+  <rect x="70" y="54" width="5" height="155" rx="2.5" fill="url(#accent)"/>
+  <text x="100" y="112" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="43" font-weight="700" letter-spacing=".2">Hai Dang Nguyen</text>
+  <text x="102" y="153" fill="#b7d4df" font-family="Segoe UI, Arial, sans-serif" font-size="20" letter-spacing=".8">SOFTWARE ENGINEERING  ·  DATA  ·  APPLIED ML</text>
+  <text x="102" y="190" fill="#d1fae5" font-family="Segoe UI, Arial, sans-serif" font-size="16">Practical systems. Reproducible analysis. Honest evaluation.</text>
+  <path d="M102 220 H330" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+</svg>
